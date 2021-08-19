@@ -68,11 +68,10 @@
 			children = (
 				DE442BD626CCE39E00F91874 /* AppDelegate.swift */,
 				DE442BD826CCE39E00F91874 /* SceneDelegate.swift */,
-				DE442BF226CCE91B00F91874 /* GitHubSearchPresenter.swift */,
 				DE442BF426CCEAA000F91874 /* GitHubAPI.swift */,
-				DE442BF026CCE5CE00F91874 /* GitHubModel.swift */,
-				DE442BEA26CCE45400F91874 /* GitHubViewController.swift */,
-				DE442BEC26CCE53900F91874 /* GitHubTableViewCell.swift */,
+				DE53E1A126CDE2090067D303 /* View */,
+				DE53E1A026CDE1FB0067D303 /* Model */,
+				DE53E19F26CDE1E30067D303 /* Presenter */,
 				DE442BED26CCE53900F91874 /* GitHubTableViewCell.xib */,
 				DE442BDC26CCE39E00F91874 /* Main.storyboard */,
 				DE442BDF26CCE39F00F91874 /* Assets.xcassets */,
@@ -80,6 +79,31 @@
 				DE442BE426CCE39F00F91874 /* Info.plist */,
 			);
 			path = "MVP-GitHubSearch";
+			sourceTree = "<group>";
+		};
+		DE53E19F26CDE1E30067D303 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DE442BF226CCE91B00F91874 /* GitHubSearchPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DE53E1A026CDE1FB0067D303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE442BF026CCE5CE00F91874 /* GitHubModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE53E1A126CDE2090067D303 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE442BEA26CCE45400F91874 /* GitHubViewController.swift */,
+				DE442BEC26CCE53900F91874 /* GitHubTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
